@@ -1,0 +1,200 @@
+/*importo*/
+
+@-webkit-keyframes rotate-scale-down{0%{-webkit-transform:scale(1) rotateZ(0);transform:scale(1) rotateZ(0)}50%{-webkit-transform:scale(.5) rotateZ(180deg);transform:scale(.5) rotateZ(180deg)}100%{-webkit-transform:scale(1) rotateZ(360deg);transform:scale(1) rotateZ(360deg)}}@keyframes rotate-scale-down{0%{-webkit-transform:scale(1) rotateZ(0);transform:scale(1) rotateZ(0)}50%{-webkit-transform:scale(.5) rotateZ(180deg);transform:scale(.5) rotateZ(180deg)}100%{-webkit-transform:scale(1) rotateZ(360deg);transform:scale(1) rotateZ(360deg)}}
+
+.imganimada:hover { 
+    -webkit-animation:rotate-scale-down .65s linear both;animation:rotate-scale-down .65s linear both}
+.imganimada{
+    -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+    .imganimada:hover {
+        transform: scale(1.5 );
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        -webkit-box-shadow: 3px 3px 5px #000;
+        -moz-box-shadow: 3px 3px 5px #000;
+        box-shadow: 3px 3px 5px #000;
+        -webkit-backface-visibility: hidden;
+      }
+
+
+
+      .image {
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+      }
+      .image:hover {
+        transform: scale(1.5 );
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        -webkit-box-shadow: 3px 3px 5px #000;
+        -moz-box-shadow: 3px 3px 5px #000;
+        box-shadow: 3px 3px 5px #000;
+        -webkit-backface-visibility: hidden;
+      }
+
+
+
+
+
+
+
+
+
+html{border: 5px;
+
+
+}
+
+header{
+    margin: 0px;
+
+}
+
+head{
+    margin: 0px;
+}
+
+main { font-family: sans-serif; background-color: rgb(238, 203, 171);
+   
+}
+
+body{
+    margin: 0px;
+}
+
+
+h1 {background-color: rgb(165, 214, 244)
+    ; color: chocolate; font-size: 4m;
+   display: flex;
+   justify-content: center;
+}
+
+h2 {background-color: grey; font-size: 8; color: rgb(0, 0, 0);
+    display: flex;
+   justify-content: center;
+}
+
+
+
+h3 { background-color: rgb(144, 203, 236); color: rgb(250, 162, 130);
+font-size: 3m;
+}
+
+ul{
+    background-image: url("../img/viajeseguro.png") ;
+    
+   
+}
+.oficina {
+    width: 450px;
+    height: 30px;
+    padding: 10px 25px;
+    background-color: grey;
+    display: block;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+p{margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+    margin-right: 12%;
+
+}
+
+ul li {
+    list-style: circle;
+    width: 120px;
+    height: 30px;
+    padding: 10px 25px;
+    background-color: grey;
+    display: inline-flex;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 12%;
+        margin-right: 12%;
+    
+}
+
+
+
+
+     
+.video {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+    margin-right: 12%;
+
+}
+
+
+
+footer {background-color: rgb(197, 189, 189);
+        display: flex ;
+        justify-content: right;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    }
+
+
+/* grid por area*/
+
+.grid-area {
+
+    display: grid;
+    grid-template-areas:
+    "mapa info redes";
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.mapa {
+     grid-area: mapa ;
+    
+}
+
+.mapa {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  .mapa:hover {
+    transform: scale(1.5 );
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-box-shadow: 3px 3px 5px #000;
+    -moz-box-shadow: 3px 3px 5px #000;
+    box-shadow: 3px 3px 5px #000;
+    -webkit-backface-visibility: hidden;
+  }
+
+
+.info {
+    grid-area: info;
+}
+
+.redes {
+    grid-area: redes;
+}
+
